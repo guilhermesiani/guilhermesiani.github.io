@@ -27,10 +27,14 @@ Try it and tell me later about your experience.
 
 ### Bullet Journal
 
-Another big change that I did on my life organization methods is the use of Bullet Journal.
+Another big change that I did on my life organization methods is the use of Bullet Journal and I recomend you to look a bit what it is
 
-![alt text](image.jpg)
+![alt text](image.png)
 
+Bullet Journal helps me brings myself back to the earth. Much time ago I don't feel what is doing something ~~horrible~~ artistic and handmade. Even if simplistic, all that I say above is more powerful using Bullet Journal.
+
+I put on this notebook all my journey for the all year. Every month, every single day, all my notes, todo lists and reminders in one place is a kind of freedom
+that any app gives me.
 
 
 
