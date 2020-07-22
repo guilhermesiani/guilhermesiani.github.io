@@ -12,9 +12,24 @@ I can't imagine how much ideas and time saved unsing this and I will try to expl
 All my programmer life I tried to use many tools that improve my capabilities to remember things, organize TODO lists, improve criativity and etc.
 But one thing that works very well with all my needs, with freedom and combined all that other tools have separated and especialized is Paper and pencil.
 
+> Ok, Guilherme. But what about reminders notification for your schedule todo/meeting?
 
+And I say. Organizing into paper or a notebook turns me more organized ever, just because I can create mindsets or draw ever I need to explore more or must remember some topics with emfhasis. This kind of things enforces our memory habilities so well that tecnologies will never do.
 
+{IMAGE OF DIAGRAM ON PAPER PENCIL}
 
+Although tecnologias has credits about much other things and we are programmers because of this, I could'n abandon paper, I couln'd abondon freedom to put what I need as I want.
+
+By much time I used to create drafts classes and databases diagrams, logical flows and checklists before developing on computer. My experience demonstrate that this
+action save me much time than if I had coded first and thinking how to do simultaneos. Is it right that easier things we could code directly. Try to draft this will cost much time that code and that's fine.
+
+Try it and tell me later about your experience.
+
+### Bullet Journal
+
+Another big change that I did on my life organization methods is the use of Bullet Journal.
+
+![alt text](image.jpg)
 
 
 
