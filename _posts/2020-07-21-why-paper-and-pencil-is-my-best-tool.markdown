@@ -18,8 +18,6 @@ Organizing into paper or a notebook turns me more disciplined ever, just because
 
 ![image](/assets/images/creativity-paper-1280.jpg)
 
-Although tecnologies has credits about much other things and we are programmers because of this. I could'n abandon paper, I couln'd abondon freedom to put what I need as I want so fast and ready to use on my desk.
-
 Although tecnologies has credits about much other things and we are programmers because of this, I could’n abandon paper and freedom.
 
 I did many class diagrams, flowcharts and database modeling that saved me much time rather start coding too fast, without thinking better what I really could do.
@@ -34,7 +32,7 @@ Another big change that I did on my life organization methods is the use of Bull
 
 ![image](/assets/images/bulletjournal.png)
 
-Bullet Journal helps me bringing my thoughts closer. For a long time I don't feel what is do something more artistic and handmade. Even if simplistic, all that I said above abou paper and pencil is more powerful using Bullet Journal (In this case I use a pen :p).
+Bullet Journal helps me bringing my thoughts closer. For a long time I don't feel what is do something more ~~horrible~~ artistic and handmade. Even if simplistic, all that I said above abou paper and pencil is more powerful using Bullet Journal (In this case I use a pen :p).
 
 I put on this notebook my year journey. Every month, every single day, all my notes, todo lists and reminders in one place is a kind of freedom that no app gave me.
 
