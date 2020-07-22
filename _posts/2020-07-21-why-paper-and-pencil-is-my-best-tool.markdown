@@ -36,6 +36,11 @@ Bullet Journal helps me bringing my thoughts closer. For a long time I don't fee
 
 I put on this notebook my year journey. Every month, every single day, all my notes, todo lists and reminders in one place is a kind of freedom that no app gave me.
 
+
 Don’t stick to the stereotype that programmers should consume all possible technology.
 
 I hope this experience I shared at least make you reflect.
+
+[See more about Bullet Journal][bullet-journal]{:target="_blank"}
+
+[bullet-journal]: https://bulletjournal.com/pages/learn
