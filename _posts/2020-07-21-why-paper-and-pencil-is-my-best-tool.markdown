@@ -39,7 +39,7 @@ Bullet Journal helps me bringing my thoughts closer. For a long time I didn't fe
 I put down on this notebook my year journey. Every month, every single day, all my notes, to do lists and reminders, all in one place, this is a kind of freedom that any app gave me.
 
 
-Don’t stick to the stereotype that programmers should consume all possible technology.
+Don’t stick with the stereotype that programmers should consume every possible technology that there is.
 
 I hope this experience I shared at least make you reflect.
 
