@@ -36,7 +36,7 @@ Another big change I've made on my life's organization methods is the use of Bul
 
 Bullet Journal helps me bringing my thoughts closer. For a long time I didn't feel what it is to do something ~~horrible~~ more artistic and handmade. Even if simplistic, all that I said above about paper and pencil is more powerful along with Bullet Journal (for this I use a pen :p).
 
-I put on this notebook my year journey. Every month, every single day, all my notes, todo lists and reminders in one place is a kind of freedom that no app gave me.
+I put down on this notebook my year journey. Every month, every single day, all my notes, to do lists and reminders, all in one place, this is a kind of freedom that any app gave me.
 
 
 Don’t stick to the stereotype that programmers should consume all possible technology.
