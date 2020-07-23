@@ -8,11 +8,11 @@ Try to think about how much time we spend looking for an ideal tool to taking ou
 
 I can’t imagine how much ideas and time I saved using this and I will try explain why this works so well to me.
 
-All my programmer life I’ve tried to use many tools that improve my capabilities to remember things, organize TODO lists, improve creativity and etc. One thing that works so well on all my needs, with freedom and combined all that other tools that have separated and specialized functions, is the paper and pencil.
+All my programmer life I’ve tried to use many tools that improve my capabilities to remember things, organize TODO lists, improve creativity and etc. One thing that works so well on all my needs, with freedom and combined all other tools that have separated and specialized functions, is the paper and pencil.
 
 > Ok, Guilherme. But what about smartphone screen notifications for your schedule todo list/meeting?
 
-Ok. I know and I use this too as a extra (Yeah.. as a extra, not as the main tool)
+Ok. I know and I use this too as an extra (Yeah.. as an extra, not as the main tool)
 
 Organizing into paper or a notebook turns me more disciplined ever, just because I can create mindsets, draw ever I need to explore more and when I must remember some topics with emfhasis. This kind of things enforces our memory so well that tecnologies will never do the same.
 
