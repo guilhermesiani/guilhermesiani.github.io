@@ -4,7 +4,7 @@ title:  "Why paper and pencil are my best tools"
 date:   2020-07-21 23:30:41 -0300
 categories: tools
 ---
-Try to think about how much time we spend looking for an ideal tool to taking our notes, reminders, scheduling, sketching… A tool that give us freedom and flexibility to do everthing we need. Yeah .. so try to look around. Can you see this tool? There it is! A simple paper and pencil right next to you.
+Just try thinking about how much time we spend looking for an ideal tool to taking our notes, reminders, scheduling, sketching… A tool that give us freedom and flexibility to do everything we need. Yeah... so try looking around. Can you see this tool? There it is! A simple paper and pencil right next to you.
 
 I can’t imagine how much ideas and time I saved using this and I will try explain why this works so well to me.
 
