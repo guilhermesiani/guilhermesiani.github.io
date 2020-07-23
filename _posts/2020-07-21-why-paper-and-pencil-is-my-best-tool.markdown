@@ -6,7 +6,7 @@ categories: tools
 ---
 Just try thinking about how much time we spend looking for an ideal tool to taking our notes, reminders, scheduling, sketching… A tool that give us freedom and flexibility to do everything we need. Yeah... so try looking around. Can you see this tool? There it is! A simple paper and pencil right next to you.
 
-I can’t imagine how much ideas and time I saved using this and I will try explain why this works so well to me.
+I can’t imagine how many ideas and how much time I saved using this and I will try explain why this works so well to me.
 
 In all my programmer life I’ve tried to use many tools that could improve my capabilities to remember things, organize to do lists, improve creativity, etc. One thing that worked so well on all my needs giving me freedom, and combining all other tools that have separated and specialized functions, is paper and pencil.
 
