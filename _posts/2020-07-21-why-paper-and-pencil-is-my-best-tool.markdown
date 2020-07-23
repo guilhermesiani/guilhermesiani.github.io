@@ -8,7 +8,9 @@ Just try thinking about how much time we spend looking for an ideal tool to taki
 
 I can’t imagine how much ideas and time I saved using this and I will try explain why this works so well to me.
 
-All my programmer life I’ve tried to use many tools that improve my capabilities to remember things, organize TODO lists, improve creativity and etc. One thing that works so well on all my needs, with freedom and combined all other tools that have separated and specialized functions, is the paper and pencil.
+In all my programmer life I’ve tried to use many tools that could improve my capabilities to remember things, organize to do lists, improve creativity, etc. One thing that worked so well on all my needs giving me freedom, and combining all other tools that have separated and specialized functions, is paper and pencil.
+
+I can’t imagine how many ideas and how much time I've saved using just this tool, and I will try explain why this works so well to me.
 
 > Ok, Guilherme. But what about smartphone screen notifications for your schedule todo list/meeting?
 
