@@ -18,7 +18,7 @@ Organizing into paper or a notebook turns me more disciplined ever, just because
 
 ![image](/assets/images/creativity-paper-1280.jpg)
 
-Although tecnologies has credits about much other things and we are programmers because of this, I could’n abandon paper and freedom.
+Although tecnologies has credits about much other things and we are programmers because of this. I could’n abandon paper and freedom.
 
 I did many class diagrams, flowcharts and database modeling that saved me much time rather start coding too fast, without thinking better what I really could do.
 
