@@ -22,7 +22,7 @@ Organizing ideas on a paper or a notebook turned me more disciplined than ever, 
 
 Although tecnologies has credits about much other things and we are programmers because of this. I could’n abandon paper and freedom.
 
-I did many class diagrams, flowcharts and database modeling that saved me much time rather start coding too fast, without thinking better what I really could do.
+I made many class diagrams, flowcharts and database modeling which saved me much time, instead of start coding right away, without thinking carefully of what I could really do.
 
 This experience demonstrate that this action save me much more time than if I had coded first and thinking how to solve my problem or applying some design patterns simultaneos. It is right that easier things we just code directly. Trying to draft this on paper will cost more time that codefying and that’s fine.
 
