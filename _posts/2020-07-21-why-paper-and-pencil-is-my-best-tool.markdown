@@ -12,7 +12,7 @@ In all my programmer life I’ve tried to use many tools that could improve my c
 
 I can’t imagine how many ideas and how much time I've saved using just this tool, and I will try explain why this works so well to me.
 
-> Ok, Guilherme. But what about smartphone screen notifications for your schedule todo list/meeting?
+> Ok, But what about smartphone's on-screen notifications for your scheduled to do lists/meetings?
 
 Ok. I know and I use this too as an extra (Yeah.. as an extra, not as the main tool)
 
