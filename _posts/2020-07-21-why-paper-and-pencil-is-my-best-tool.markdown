@@ -41,7 +41,7 @@ I put down on this notebook my year journey. Every month, every single day, all 
 
 Don’t stick with the stereotype that programmers should consume every possible technology that there is.
 
-I hope this experience I shared at least make you reflect.
+I hope the experience I shared, at least makes you think about it.
 
 [See more about Bullet Journal][bullet-journal]{:target="_blank"}
 
