@@ -6,15 +6,12 @@ categories: tools
 ---
 Just try thinking about how much time we spend looking for an ideal tool to taking our notes, reminders, scheduling, sketching… A tool that give us freedom and flexibility to do everything we need. Yeah... so try looking around. Can you see this tool? There it is! A simple paper and pencil right next to you.
 
-I can’t imagine how many ideas and how much time I saved using this and I will try explain why this works so well to me.
-
-In all my programmer life I’ve tried to use many tools that could improve my capabilities to remember things, organize to do lists, improve creativity, etc. One thing that worked so well on all my needs giving me freedom, and combining all other tools that have separated and specialized functions, is paper and pencil.
-
 I can’t imagine how many ideas and how much time I've saved using just this tool, and I will try explain why this works so well to me.
 
+In all my programmer life I’ve tried to use many tools that could improve my capabilities to remember things, organize to do lists, improve creativity, etc. One thing that worked so well on all my needs giving me freedom, and combining all other tools that have separated and specialized functions, is paper and pencil.
 > Ok, But what about smartphone's on-screen notifications for your scheduled to do lists/meetings?
 
-Ok. I know and I use this too as an extra (Yeah... as an extra, not as the main tool)
+Ok. I know and I use this tool as an extra (Yeah... as an extra, not as the main tool)
 
 Organizing ideas on a paper or a notebook turned me more disciplined than ever, just because I can create mindsets, draw whatever I need to explore and remember myself about some topics with emphasis. This kind of things enforces our memory so well that there will never be a technology to do it in the same way
 
