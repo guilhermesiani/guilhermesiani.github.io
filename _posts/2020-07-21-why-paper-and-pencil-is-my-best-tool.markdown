@@ -30,7 +30,7 @@ Try it, and tell me later about your experiences.
 
 ### Bullet Journal
 
-Another big change that I did on my life organization methods is the use of Bullet Journal and I recomMend you to know about it a bit.
+Another big change I've made on my life's organization methods is the use of Bullet Journal and I recommend you to know a bit about it.
 
 ![image](/assets/images/bulletjournal.png)
 
