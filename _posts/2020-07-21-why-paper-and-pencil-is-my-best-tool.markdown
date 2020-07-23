@@ -26,7 +26,7 @@ I made many class diagrams, flowcharts and database modeling which saved me much
 
 This past experience demonstrates that this action saves me much more time than if I had coded first and just then thought on how to solve my problem or applying any design patterns. It's OK to code directly if it's something easy, trying to draft this on paper could cost more time than code directly and that’s fine.
 
-Try it and tell me later about your experience.
+Try it, and tell me later about your experiences.
 
 ### Bullet Journal
 
