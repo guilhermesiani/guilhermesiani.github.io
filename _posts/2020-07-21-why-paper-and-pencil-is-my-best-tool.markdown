@@ -24,7 +24,7 @@ Although tecnologies has credits about much other things and we are programmers 
 
 I made many class diagrams, flowcharts and database modeling which saved me much time, instead of start coding right away, without thinking carefully of what I could really do.
 
-This experience demonstrate that this action save me much more time than if I had coded first and thinking how to solve my problem or applying some design patterns simultaneos. It is right that easier things we just code directly. Trying to draft this on paper will cost more time that codefying and that’s fine.
+This past experience demonstrates that this action saves me much more time than if I had coded first and just then thought on how to solve my problem or applying any design patterns. It's OK to code directly if it's something easy, trying to draft this on paper could cost more time than code directly and that’s fine.
 
 Try it and tell me later about your experience.
 
