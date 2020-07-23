@@ -14,7 +14,7 @@ I can’t imagine how many ideas and how much time I've saved using just this to
 
 > Ok, But what about smartphone's on-screen notifications for your scheduled to do lists/meetings?
 
-Ok. I know and I use this too as an extra (Yeah.. as an extra, not as the main tool)
+Ok. I know and I use this too as an extra (Yeah... as an extra, not as the main tool)
 
 Organizing ideas on a paper or a notebook turned me more disciplined than ever, just because I can create mindsets, draw whatever I need to explore and remember myself about some topics with emphasis. This kind of things enforces our memory so well that there will never be a technology to do it in the same way
 
