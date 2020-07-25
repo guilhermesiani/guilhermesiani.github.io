@@ -10,14 +10,16 @@ I'm not an expert in math, but when I remember some formulas, I search for on go
 
 ### How to use Quadratic Equation to solve a common problem
 
-I could explain what is Quadratic Equation and its history, but it does not focus here. So I will let this [link][bullet-journal]{:target="_blank"} to Wikipedia if you want to know more about it.
+I could explain what is Quadratic Equation and its history, but it does not focus here. So I will let this [link][link]{:target="_blank"} to Wikipedia if you want to know more about it.
 
 The problem we will solve is to discover the max profit of a bus fleet when the price is $350 for each passenger, the passenger limit is 60 and we give a discount of $5 per passenger that exceeds 40.
 
 Think, if we give a discount on each exceeding passenger from 40, our profit must decrease after a specific number of passengers, and this number is what we want to know.
 
 At this point, we have two tools in mind: Programming and math.
-The math formula (Quadratic Equation) is (-b±∆)/(2•a).
+
+The math formula (Quadratic Equation) is `(-b±∆)/(2•a)`.
+
 The programming language I'll use is this example is Golang (but could be any other by your choice).
 
 As a good code has good tests, let's see how it looks like:
@@ -75,10 +77,10 @@ func quadraticEquationFormulaByOp(a, b float64, op string, c chan float64) {
 }
 {% endhighlight %}
 
-I apply a simple design to clean my code in separated functions and use the goroutine to calculate the plus and minor operators simultaneously, but this is an extra just to use all the power of the language. In this case, I know that the gains are irrelevant.
+I apply a simple design to clean my code in separated functions and use the goroutine to calculate the sum "+" and subtraction "-" operators simultaneously, but this is an extra just to use all the power of the language. In this case, I know that the gains are irrelevant.
 
 Can you see how powerful this combination could be? How much time did I lose thinking about how to solve the math problem? Just the time for the search on Google and the time of learning curve on the programming language (Golang). The programming language, database systems, and other IT tools we can't avoid the learning curve, but the math all the time we have a shortcut, and especially when we don't have time to study all the existing methods and formulas.
 
-I hope you like this tip and helps you to work better.
+I hope you liked this tip and that it helps you to have a better performance.
 
 [link]: https://en.wikipedia.org/wiki/Quadratic_equation
