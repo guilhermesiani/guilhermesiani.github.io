@@ -91,7 +91,7 @@ func quadraticEquationFormulaByOp(a, b float64, op string, c chan float64) {
 
 I apply a simple design to clean my code in separated functions and use the goroutine to calculate the sum "+" and subtraction "-" operators simultaneously, but this is an extra just to use all the power of the language. In this case, I know that the gains are irrelevant.
 
-Can you see how powerful this combination could be? How much time did I lose thinking about how to solve the math problem? Just the time for the search on Google and the time of learning curve on the programming language (Golang). The programming language, database systems, and other IT tools we can't avoid the learning curve, but the math all the time we have a shortcut, and especially when we don't have time to study all the existing methods and formulas.
+Can you see how powerful this combination could be? How much time did I lose thinking about how to solve the math problem? Just the time for google it and the time of learning curve on the programming language (Golang). The programming language, database systems, and other IT tools we can't avoid the learning curve, but the math all the time we have a shortcut, and especially when we don't have time to study all the existing methods and formulas.
 
 I hope you liked this tip and that it helps you to have a better performance.
 
