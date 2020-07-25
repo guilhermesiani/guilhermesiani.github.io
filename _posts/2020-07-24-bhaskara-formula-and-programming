@@ -1,5 +1,40 @@
 ---
 layout: post
+title:  "Bhaskara formula and programming"
+date:   2020-07-24 23:30:41 -0300
+categories: tools
+---
+Programming is the best method ever to solve problems within a machine and whether combined with math, we can do magical things that Harry Potter would be jealous.
+
+I'm not an expert in math, but when I remember some formulas, I search for on google and try to combine with my codes. It helps me create algorithms with better performance - I mean coding faster in this case - and design, so take a look at this example below.
+How to use Bhaskara formula to solve a common problem
+I could explain what is Bhaskara formula and its history, but it does not focus here. So I will let this link(must be a link) to Wikipedia if you want to know more about it.
+
+The problem we will solve is to discover the max profit of a bus fleet when the price is $350 for each passenger, the passenger limit is 60 and we give a discount of $5 per passenger that exceeds 40.
+
+Think, if we give a discount on each exceeding passenger from 40, our profit must decrease after a specific number of passengers, and this number is what we want to know.
+
+At this point, we have two tools: Programming and math.
+The math formula (Bhaskara) is (-b±∆)/(2•a).
+The programming language is Golang.
+
+Let's see how the code looks like using this formula:
+
+{THE CODE HERE}
+
+And as a good code has good tests, let's see how it looks like:
+
+{THE CODE TEST}
+
+Sure that I apply a simple design to clean my code in separated functions and use the goroutine to calculate the plus and minor operators simultaneously, but this is an extra just to use all the power of the language. In this case, I know that the gains are irrelevant.
+
+
+
+
+
+
+---
+layout: post
 title:  "Why paper and pencil are my best tools"
 date:   2020-07-21 23:30:41 -0300
 categories: tools
