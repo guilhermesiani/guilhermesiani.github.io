@@ -56,14 +56,20 @@ func CalcMaxProfit(
 	startDiscount int,
 	discount float64,
 ) int {
-	// Find coefficients
-	a := discount * -1
-	b := pricePerPassenger + (discount * float64(startDiscount))
-
-	// Apply Quadratic Equation formula
+	a, b := findCoefficients(priceByPassenger, startDiscount, discount)
 	x1, x2 := applyQuadraticEquation(a, b)
 
 	return int((x1 + x2) / 2)
+}
+
+func findCoefficients(
+	priceByPassenger float64,
+	startDiscount int,
+	discount float64,
+) (float64, float64) {
+	a := discount * -1
+	b := priceByPassenger + (discount * float64(startDiscount))
+	return a, b
 }
 
 func applyQuadraticEquation(a, b float64) (float64, float64) {
