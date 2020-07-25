@@ -22,7 +22,19 @@ The programming language I'll use is this example is Golang (but could be any ot
 
 As a good code has good tests, let's see how it looks like:
 
-{THE CODE TEST}
+{% highlight go %}
+package bhaskara
+
+import (
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
+
+func TestCalcMaxProfit(t *testing.T) {
+	assert.Equal(t, 55, CalcMaxProfit(350, 40, 5))
+	assert.Equal(t, 60, CalcMaxProfit(350, 50, 5))
+}
+{% endhighlight %}
 
 And let's see how the code that makes the test pass looks like using this formula:
 
