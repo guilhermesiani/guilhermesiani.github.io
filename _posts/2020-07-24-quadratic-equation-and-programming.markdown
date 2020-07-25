@@ -26,7 +26,7 @@ At this point, we have two tools in mind: Programming and math.
 
 The math formula (Quadratic Equation) is `(-b ± √∆)/(2•a)`.
 
-The programming language I'll use is this example is Golang (but could be any other by your choice).
+The programming language I'll use in this example is Golang (but could be any other by your choice).
 
 As a good code has good tests, let's see how it looks like:
 
