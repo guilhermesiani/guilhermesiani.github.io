@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bhaskara formula and programming"
+title:  "Quadratic equation and programming"
 date:   2020-07-24 23:30:41 -0300
 categories: tools
 ---
@@ -8,16 +8,16 @@ Programming is the best method ever to solve problems within a machine and wheth
 
 I'm not an expert in math, but when I remember some formulas, I search for on google and try to combine with my codes. It helps me create algorithms with better performance - I mean coding faster in this case - and design, so take a look at this example below.
 
-### How to use Bhaskara formula to solve a common problem
+### How to use Quadratic Equation to solve a common problem
 
-I could explain what is Bhaskara formula and its history, but it does not focus here. So I will let this link(must be a link) to Wikipedia if you want to know more about it.
+I could explain what is Quadratic Equation and its history, but it does not focus here. So I will let this [link][bullet-journal]{:target="_blank"} to Wikipedia if you want to know more about it.
 
 The problem we will solve is to discover the max profit of a bus fleet when the price is $350 for each passenger, the passenger limit is 60 and we give a discount of $5 per passenger that exceeds 40.
 
 Think, if we give a discount on each exceeding passenger from 40, our profit must decrease after a specific number of passengers, and this number is what we want to know.
 
 At this point, we have two tools in mind: Programming and math.
-The math formula (Bhaskara) is (-b±∆)/(2•a).
+The math formula (Quadratic Equation) is (-b±∆)/(2•a).
 The programming language I'll use is this example is Golang (but could be any other by your choice).
 
 As a good code has good tests, let's see how it looks like:
@@ -34,6 +34,4 @@ Can you see how powerful this combination could be? How much time did I lose thi
 
 I hope you like this tip and helps you to work better.
 
-[See more about Bullet Journal][bullet-journal]{:target="_blank"}
-
-[bullet-journal]: https://bulletjournal.com/pages/learn
+[link]: https://en.wikipedia.org/wiki/Quadratic_equation
