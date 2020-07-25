@@ -8,13 +8,13 @@ Just try thinking about how much time we spend looking for an ideal tool for tak
 
 I can’t imagine how many ideas and how much time I've saved using just this tool, and I will try to explain why this works so well to me.
 
-In all my programmer life I’ve tried to use many tools that could improve my capabilities to remember things, organize to-do lists, improve creativity, etc. One thing that worked so well on all my needs giving me freedom, and combining all other tools that have separated and specialized functions, is paper and pencil.
+In all my programmer life I’ve tried to use many tools that could improve my capabilities to remember things, organize to-do lists, improve creativity, etc. The one that meets all my needs and gives me the freedom, and combining all other tools that have separated and specialized functions, is paper and pencil.
 
 > Ok, But what about smartphone's on-screen notifications for your scheduled to-do lists/meetings?
 
 Ok. I know and I use this tool as an extra (Yeah... as an extra, not as the main tool).
 
-Organizing ideas on a paper or a notebook turned me more disciplined than ever, just because I can create mindsets, draw whatever I need to explore, and remember myself about some topics with emphasis. This kind of things enforces our memory so well that there will never be a technology to do it in the same way.
+Organizing ideas on a paper or a notebook turned me more disciplined than ever, just because I can create mindsets, draw whatever I need to explore, and remember myself emphasizing some topics. This kind of things enforces our memory so well that there will never be a technology to do it in the same way.
 
 ![image](/assets/images/creativity-paper-1280.jpg)
 
@@ -28,7 +28,7 @@ Try it, and tell me later about your experiences.
 
 ### Bullet Journal
 
-Another big change I’ve made on my life’s organization methods is the use of Bullet Journal and I recommend you to know a bit about it.
+Another big change I’ve made on my life’s organization methods is the use of Bullet Journal and I recommend knowing a bit about it.
 
 ![image](/assets/images/bulletjournal.png)
 
