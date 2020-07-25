@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quadratic equation and programming"
-date:   2020-07-24 23:30:41 -0300
+date:   2020-07-24 22:30:41 -0300
 categories: tools
 ---
 Programming is the best method ever to solve problems within a machine and whether combined with math, we can do magical things that Harry Potter would be jealous.
@@ -23,7 +23,7 @@ The programming language I'll use is this example is Golang (but could be any ot
 As a good code has good tests, let's see how it looks like:
 
 {% highlight go %}
-package bhaskara
+package bus_fleet
 
 import (
 	"github.com/stretchr/testify/assert"
@@ -38,7 +38,42 @@ func TestCalcMaxProfit(t *testing.T) {
 
 And let's see how the code that makes the test pass looks like using this formula:
 
-{THE CODE HERE}
+{% highlight go %}
+package bus_fleet
+
+import "math"
+
+func CalcMaxProfit(
+	pricePerPassenger float64,
+	startDiscount int,
+	discount float64,
+) int {
+	// Find coefficients
+	a := discount * -1
+	b := pricePerPassenger + (discount * float64(startDiscount))
+
+	// Apply Quadratic Equation formula
+	x1, x2 := applyQuadraticEquation(a, b)
+
+	return int((x1 + x2) / 2)
+}
+
+func applyQuadraticEquation(a, b float64) (float64, float64) {
+	c := make(chan float64)
+	go quadraticEquationFormulaByOp(a, b, "-", c)
+	go quadraticEquationFormulaByOp(a, b, "+", c)
+	return <-c, <-c
+}
+
+func quadraticEquationFormulaByOp(a, b float64, op string, c chan float64) {
+	divisor := 2 * a
+	sqrtDelta := math.Sqrt(math.Pow(b, 2))
+	if op == "+" {
+		c <- (-b + sqrtDelta) / divisor
+	}
+	c <- (-b - sqrtDelta) / divisor
+}
+{% endhighlight %}
 
 I apply a simple design to clean my code in separated functions and use the goroutine to calculate the plus and minor operators simultaneously, but this is an extra just to use all the power of the language. In this case, I know that the gains are irrelevant.
 
