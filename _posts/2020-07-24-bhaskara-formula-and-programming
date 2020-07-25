@@ -7,73 +7,32 @@ categories: tools
 Programming is the best method ever to solve problems within a machine and whether combined with math, we can do magical things that Harry Potter would be jealous.
 
 I'm not an expert in math, but when I remember some formulas, I search for on google and try to combine with my codes. It helps me create algorithms with better performance - I mean coding faster in this case - and design, so take a look at this example below.
-How to use Bhaskara formula to solve a common problem
+
+### How to use Bhaskara formula to solve a common problem
+
 I could explain what is Bhaskara formula and its history, but it does not focus here. So I will let this link(must be a link) to Wikipedia if you want to know more about it.
 
 The problem we will solve is to discover the max profit of a bus fleet when the price is $350 for each passenger, the passenger limit is 60 and we give a discount of $5 per passenger that exceeds 40.
 
 Think, if we give a discount on each exceeding passenger from 40, our profit must decrease after a specific number of passengers, and this number is what we want to know.
 
-At this point, we have two tools: Programming and math.
+At this point, we have two tools in mind: Programming and math.
 The math formula (Bhaskara) is (-b±∆)/(2•a).
-The programming language is Golang.
+The programming language I'll use is this example is Golang (but could be any other by your choice).
 
-Let's see how the code looks like using this formula:
-
-{THE CODE HERE}
-
-And as a good code has good tests, let's see how it looks like:
+As a good code has good tests, let's see how it looks like:
 
 {THE CODE TEST}
 
-Sure that I apply a simple design to clean my code in separated functions and use the goroutine to calculate the plus and minor operators simultaneously, but this is an extra just to use all the power of the language. In this case, I know that the gains are irrelevant.
+And let's see how the code that makes the test pass looks like using this formula:
 
+{THE CODE HERE}
 
+I apply a simple design to clean my code in separated functions and use the goroutine to calculate the plus and minor operators simultaneously, but this is an extra just to use all the power of the language. In this case, I know that the gains are irrelevant.
 
+Can you see how powerful this combination could be? How much time did I lose thinking about how to solve the math problem? Just the time for the search on Google and the time of learning curve on the programming language (Golang). The programming language, database systems, and other IT tools we can't avoid the learning curve, but the math all the time we have a shortcut, and especially when we don't have time to study all the existing methods and formulas.
 
-
-
----
-layout: post
-title:  "Why paper and pencil are my best tools"
-date:   2020-07-21 23:30:41 -0300
-categories: tools
----
-Just try thinking about how much time we spend looking for an ideal tool for taking our notes, reminders, scheduling, sketching… A tool that gives us the freedom and flexibility to do everything we need. Yeah... so try looking around. Can you see this tool? There it is! A simple paper and pencil right next to you.
-
-I can’t imagine how many ideas and how much time I've saved using just this tool, and I will try to explain why this works so well to me.
-
-In all my programmer life I’ve tried to use many tools that could improve my capabilities to remember things, organize to-do lists, improve creativity, etc. One thing that worked so well on all my needs giving me freedom, and combining all other tools that have separated and specialized functions, is paper and pencil.
-
-> Ok, But what about smartphone's on-screen notifications for your scheduled to-do lists/meetings?
-
-Ok. I know and I use this tool as an extra (Yeah... as an extra, not as the main tool).
-
-Organizing ideas on a paper or a notebook turned me more disciplined than ever, just because I can create mindsets, draw whatever I need to explore, and remember myself about some topics with emphasis. This kind of things enforces our memory so well that there will never be a technology to do it in the same way.
-
-![image](/assets/images/creativity-paper-1280.jpg)
-
-Although technology has its credits about many other things, and we are programmers because of it, I couldn’t abandon paper and its freedom.
-
-I made many class diagrams, flowcharts, and database modeling which saved me much time, instead of start coding right away, without thinking carefully about what I could do.
-
-This experience demonstrates that this action saves me much more time than if I had coded first and just then thought about how to solve my problem or applying any design patterns. It’s OK to code directly if it’s something easy, trying to draft this on paper could cost more time than code directly and that’s fine.
-
-Try it, and tell me later about your experiences.
-
-### Bullet Journal
-
-Another big change I’ve made on my life’s organization methods is the use of Bullet Journal and I recommend you to know a bit about it.
-
-![image](/assets/images/bulletjournal.png)
-
-Bullet Journal helps me bringing my thoughts closer. For a long time, I didn’t feel what it is to do something horrible more artistic, and handmade. Even if simplistic, all that I said above about paper and pencil is more powerful along with Bullet Journal (for this I use a pen :p).
-
-I put down on this notebook my year journey. Every month, every single day, all my notes, to-do lists, and reminders, all in one place, this is a kind of freedom that any app gave me.
-
-Don’t stick with the stereotype that programmers should consume every possible technology that there is.
-
-I hope the experience I shared, at least makes you think about it.
+I hope you like this tip and helps you to work better.
 
 [See more about Bullet Journal][bullet-journal]{:target="_blank"}
 
