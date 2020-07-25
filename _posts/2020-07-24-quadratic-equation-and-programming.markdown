@@ -8,9 +8,9 @@ Programming is the best method ever to solve problems within a machine and wheth
 
 I'm not an expert in math, but when I remember some formulas, I search for on google and try to combine with my codes. It helps me create algorithms with better performance - I mean coding faster in this case - and design, so take a look at this example below.
 
-### How to use Quadratic Equation to solve a common problem
+### How to use the Quadratic Equation to solve a common problem
 
-I could explain what is Quadratic Equation and its history, but it does not focus here. So I will let this [link][link]{:target="_blank"} to Wikipedia if you want to know more about it.
+I could explain what is the Quadratic Equation and its history, but it does not focus here. So I will let this [link][link]{:target="_blank"} to Wikipedia if you want to know more about it.
 
 The problem we will solve is to discover the max profit of a bus fleet when the price is $350 per passenger; the passenger limit is 60; we give a discount of $5 from 40th passenger.
 
