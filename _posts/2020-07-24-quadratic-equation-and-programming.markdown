@@ -14,7 +14,13 @@ I could explain what is the Quadratic Equation and its history, but it does not 
 
 The problem we will solve is to discover the max profit of a bus fleet when the price is $350 per passenger; the passenger limit is 60; we give a discount of $5 from 40th passenger.
 
-Think, if we give a discount on each exceeding passenger from 40, our profit must decrease after a specific number of passengers, and this number is what we want to know.
+Think, if we give a discount per pessenger from 40th, our profit must decrease after a specific number of passengers, and this number is what we want to know.
+
+Put in mind that this graph is a parabole:
+
+![image](/assets/images/max-profit-bus-fleet-parabole.png)
+
+Defining the function, we have `f(x) = -5x² + 550x`
 
 At this point, we have two tools in mind: Programming and math.
 
