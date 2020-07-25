@@ -6,7 +6,7 @@ categories: tools
 ---
 Programming is the best method ever to solve problems within a machine and whether combined with math, we can do magical things that Harry Potter would be jealous.
 
-I'm not an expert in math, but when I remember some formulas, I search for on google and try to combine with my codes. It helps me create algorithms with better performance - I mean coding faster in this case - and design, so take a look at this example below.
+I'm not an expert in math, but when I remember some formulas, I google it and try to combine with my codes. It helps me create algorithms with better performance - I mean coding faster in this case - and design, so take a look at this example below.
 
 ### How to use the Quadratic Equation to solve a common problem
 
