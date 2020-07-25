@@ -12,13 +12,13 @@ I'm not an expert in math, but when I remember some formulas, I search for on go
 
 I could explain what is Quadratic Equation and its history, but it does not focus here. So I will let this [link][link]{:target="_blank"} to Wikipedia if you want to know more about it.
 
-The problem we will solve is to discover the max profit of a bus fleet when the price is $350 for each passenger, the passenger limit is 60 and we give a discount of $5 per passenger that exceeds 40.
+The problem we will solve is to discover the max profit of a bus fleet when the price is $350 per passenger; the passenger limit is 60; we give a discount of $5 from 40th passenger.
 
 Think, if we give a discount on each exceeding passenger from 40, our profit must decrease after a specific number of passengers, and this number is what we want to know.
 
 At this point, we have two tools in mind: Programming and math.
 
-The math formula (Quadratic Equation) is `(-b±∆)/(2•a)`.
+The math formula (Quadratic Equation) is `(-b ± √∆)/(2•a)`.
 
 The programming language I'll use is this example is Golang (but could be any other by your choice).
 
