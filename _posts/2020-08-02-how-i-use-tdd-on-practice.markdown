@@ -21,13 +21,13 @@ Our fake feature for this post is a Score System.
 
 #### Tools
 
-- I choose **C++** programming language for this example, but the principles applied will be the same in any other language or paradigm.
+- I choose **C++** programming language for this example, but the principles applied will be the same in any other programming language or paradigm.
 - We'll use a testing framework called **Catch**, for C++.
 - We must write all points that must be covered by tests, so we can't miss a checklist (it can be a simple paper and pencil).
 
 Let's start with:
 
-**Step 1:** Creation of checklist and implementation of technical requisites, what could be lower or upper level.
+**Step 1:** Creation of technical requisites checklist, what could be lower or upper-level implementation.
 
 - **sum score**
 - subtract score
@@ -109,7 +109,7 @@ Great! We finish the cycle of the implementation for the first technical requisi
 
 Now let's restart the steps for the next implementation. 
 
-We understand that a Score System needs a way to compare each other too. Thinking about it we'll increment our checklist with two more things: Equality comparison and to turn value private. To turn value private is a visibility question that, by security, we decide to prevent that users do changes this property directly.
+We understand that a Score System needs a way to compare with each other too. Thinking about it we'll increment our checklist with two more things: Equality comparison and to turn *value* private. To turn *value* private is a visibility question that, by security, we decide to prevent that users do changes on this property directly.
 
 So:
 
@@ -190,7 +190,7 @@ public:
 };
 {%endhighlight %}
 
-Great! We finish one more cycle.. 
+Great! We finish one more cycle.
 
 Seeing the code one more time we note that we have a side-effect risk, just because when we sum score values, we make changes by reference rather create a new instance of Score. Because this we'll update our checklist again and we'll work on it as soon as possible to prevent headaches.
 
@@ -338,7 +338,7 @@ bool Score::equal(const Score& s) const
 }
 {%endhighlight %}
 
-And to finish, we restarted the cycle again and turning the equality comparison point done and highlighting our last implementation, the score subtraction.
+And to finish, we restarted the cycle again, turning the equality comparison point done and highlighting our last implementation, the score subtraction.
 
 So let's:
 
