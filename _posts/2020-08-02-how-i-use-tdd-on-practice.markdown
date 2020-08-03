@@ -4,37 +4,37 @@ title:  "How I use TDD in practice"
 date:   2020-08-02 14:30:41 -0300
 categories: tools
 ---
-O que irei mostrar é uma introdução na prática de como programar usando a técnica do TDD e que posteriormente poderá ser aplicado em sua rotina de programação. Ainda sim, recomendo se aprofundar com algumas referências que deixarei ao final deste post.
+What I'll show is an introduction in practice about how to programming using the TDD technique and then you can apply in your programming routine. Although I still recommend to deep with references I'll let on the final of this post.
 
-É importante salientar que o TDD nos força a pensar no que realmente queremos como produto final antes mesmo de codificar e - o melhor de tudo - com os testes prontos, criados em um ciclo de teste, implementação e refatoração. Isso nos poupa muitas voltas implementando coisas desnecessárias ou até mesmo refatorando muitas vezes só por não termos pensado um pouco melhor no início, evita bugs, promove um código mais simples e feedbacks rápidos. Resumindo, o objetivo é ser produtivo $$$.
+It is important to highlight that TDD forces us to think about what matters as a final product before coding - and the best of all - with tests, created in a cycle about testing, implementing, and refactoring. This saves us many laps implementing unnecessary things or many refactorings just because we didn't think better at first, preventing bugs, simplifying code design, and getting fast feedback. In short, the focus here is to be productive $$$.
 
-Sem mais delongas, bora praticar!
+Without further ado. Let's practice!
 
-## Desenvolvendo com TDD
+## Programming with TDD
 
 ![TDD Cicle image](/assets/images/tdd-cicle.png "TDD Cicle")
 *<center>Image from: https://marsner.com/blog/why-test-driven-development-tdd</center>*
 
-#### Requisitos
+#### Feature Requirements
 
-A nossa feature (fictícia) será um sistema de pontuação.
+Our fake feature for this post is a Score System.
 
-#### Ferramentas
+#### Tools
 
-- Escolhi C++ para este exemplo, mas os princípios aplicados serão os mesmos em qualquer linguagem e/ou paradigma de programação.
-- Vamos usar também a framework de teste chamada catch.
-- Devemos anotar os pontos a serem desenvolvidos e cobertos pelos testes, portanto, não pode faltar um checklist (que pode ser feito com papel e lápis, o que eu prefiro).
+- I choose **C++** programming language for this example, but the principles applied will be the same in any other language or paradigm.
+- We'll use a testing framework called **Catch**, for C++.
+- We must write all points that must be covered by tests, so we can't miss a checklist (it can be a simple paper and pencil).
 
-Vamos começar com:
+Let's start with:
 
-**Passo 1:** Criação do checklist da implementação dos requisitos técnicos, podendo ser de baixo ou alto nível.
+**Step 1:** Creation of checklist and implementation of technical requisites, what could be lower or upper level.
 
 - **sum score**
 - subtract score
 
-Neste passo, definimos o checklist e destacamos o que iremos trabalhar inicialmente, neste caso, a função de soma de pontuação.
+In this step, we define a checklist and highlighted what we'll work at first, in this case, the sum of the score.
 
-**Passo 2:** Criar o teste para a implementação da soma.
+**Step 2:** Create a test for the sum of score implementation.
 
 testScore.cpp
 
@@ -48,11 +48,11 @@ TEST_CASE("Score") {
 }
 {% endhighlight %}
 
-**Passo 3:** Execute os testes e veja-o falhar.
+**Step 3:** Run the tests and watch it fail.
 
-Neste passo você irá perceber que o testes serão nosso guia pra as implementações, em pequenos passos e com grande satisfação de um código funcional e testado.
+In this step, you will note that the tests are our guide for the next implementations, by baby steps, and with much satisfying with tested code.
 
-**Passo 4:** Implemente a classe Score e sua função sum para fazer o teste passar.
+**Step 4:** Implement the Score class and its sum method to make the test success.
 
 Score.hpp
 
@@ -74,11 +74,11 @@ void Score::sum(int value)
 };
 {%endhighlight %}
 
-**Passo 5:** Execute os testes novamente e veja a barra verde de sucesso.
+**Step 5:** Run the tests again and watch the green bar of success.
 
-A implementação duplicada foi proposital, pois será eliminada no próximo passo.
+The duplicity was purposeful and will be removed on the next step.
 
-**Passo 6:** Refatore para eliminar duplicidade
+**Step 6:** Refactor to remove duplicity.
 
 Score.cpp
 
@@ -89,7 +89,7 @@ void Score::sum(int value)
 };
 {%endhighlight %}
 
-Podemos adicionar mais alguns testes para garantir a soma correta.
+We could add more tests to ensure the correct behavior of the sum method.
 
 testScore.cpp
 
@@ -105,22 +105,22 @@ TEST_CASE("Score") {
 }
 {% endhighlight %}
 
-Maravilha! Finalizamos o ciclo da implementação de um dos requisitos.
+Great! We finish the cycle of the implementation for the first technical requisite.
 
-Agora vamos reiniciar os passos para a implementação do próximo. 
+Now let's restart the steps for the next implementation. 
 
-Entendemos que um sistema de pontuação também precisa ter uma forma de comparar um ponto com o outro. Pensando nisso, vamos incrementar nosso checklist com mais duas coisas: comparador de igualdade e tornar “value” privado. “Tornar value privado” diz respeito a visibilidade que, por segurança, decidimos privar os usuários de alterem diretamente essa propriedade.
+We understand that a Score System needs a way to compare each other too. Thinking about it we'll increment our checklist with two more things: Equality comparison and to turn value private. To turn value private is a visibility question that, by security, we decide to prevent that users do changes this property directly.
 
-Portanto:
+So:
 
-**Passo 1:** Atualizar o checklist
+**Step 1:** Update the checklist.
 
 - subtract score
 - **Make “value” private**
 - equal
 - ~~sum score~~
 
-**Passo 2:** Alterar o teste para tornar “value” privado
+**Step 2:** Change the test to perform with private value.
 
 {% highlight c++ %}
 TEST_CASE("Score") {
@@ -136,9 +136,9 @@ TEST_CASE("Score") {
 }
 {% endhighlight %}
 
-**Passo 3:** Execute o teste e veja-o falhar
+**Step 3:** Run the test and watch it fail.
 
-**Passo 4:** Faça o teste passar.
+**Step 4:** Make the test pass.
 
 Score.hpp
 
@@ -171,7 +171,7 @@ void Score::sum(int value)
 };
 {%endhighlight %}
 
-**Passo 5:** Refatore para eliminar duplicidade
+**Step 5:** Refactor to remove duplicity.
 
 Score.hpp
 
@@ -190,11 +190,11 @@ public:
 };
 {%endhighlight %}
 
-Ótimo! Encerramos mais um ciclo. 
+Great! We finish one more cycle.. 
 
-Olhando de novo para o código percebemos que há um risco de ocorrer um efeito colateral, pois a pontuação pode somar alterando a sua referência em vez de criar uma nova instância, portanto atualizaremos novamente nosso checklist e então trabalharemos nisso o mais rápido possível e já evitar dores de cabeça no futuro.
+Seeing the code one more time we note that we have a side-effect risk, just because when we sum score values, we make changes by reference rather create a new instance of Score. Because this we'll update our checklist again and we'll work on it as soon as possible to prevent headaches.
 
-**Passo 1:** Atualizar o checklist
+**Step 1:** Update the checklist.
 
 - subtract score
 - equal
@@ -202,7 +202,7 @@ Olhando de novo para o código percebemos que há um risco de ocorrer um efeito 
 - ~~Make “value” private~~
 - ~~sum score~~
 
-**Passo 2:** Altere o teste para garantir que não há side-effects
+**Step 2:** Change the test to ensure that aren't side-effects.
 
 {% highlight c++ %}
 TEST_CASE("Score") {
@@ -217,11 +217,11 @@ TEST_CASE("Score") {
 }
 {% endhighlight %}
 
-Eliminamos o segundo assert do teste, pois entendemos que apenas um é suficiente para validar a nova instância de Score criada a partir do método “sum”. Sinta-se a vontade para criar e remover código sempre que necessário. Isso não é retrabalho. Pelo contrário!
+We change the second assert to ensure that the initial instance has the same value defined earlier. We are comfortable to create and remove tests and code if it's necessary. It's not reworking. Don't worry!
 
-**Passo 3:** Execute o teste e veja-o falhar
+**Step 3:** Run the test and watch it fail.
 
-**Passo 4:** Faça o teste passar.
+**Step 4:** Make the test pass.
 
 Score.hpp
 
@@ -254,11 +254,11 @@ Score Score::sum(int value)
 };
 {%endhighlight %}
 
-Aqui não será necessário relatorar, pois já eliminamos a duplicidade no teste passado. Foi uma alteração mais simples e tudo bem. Podemos seguir para o próximo item do nosso checklist.
+Here we won't need to refactor. The duplicity was removed on an earlier test. It's a simple change and it's fine for now. We can move on for the next item on the checklist.
 
-Reiniciando o ciclo, temos:
+Restarting the cycle, we have:
 
-**Passo 1:** Atualizar o checklist
+**Step 1:** Update the checklist.
 
 - subtract score
 - **equal**
@@ -266,7 +266,7 @@ Reiniciando o ciclo, temos:
 - ~~Make “value” private~~
 - ~~sum score~~
 
-**Passo 2:** Criar um novo teste para o comparador de igualdade
+**Step 2:** Create a new test for equality comparison.
 
 {% highlight c++ %}
 SECTION("test equality") {
@@ -276,9 +276,9 @@ SECTION("test equality") {
 }
 {% endhighlight %}
 
-**Passo 3:** Execute o teste e veja-o falhar
+**Step 3:** Run tests and watch it fail.
 
-**Passo 4:** Faça o teste passar.
+**Step 4:** Make the test pass.
 
 Score.hpp
 
@@ -317,7 +317,7 @@ bool Score::equal(const Score& s) const
 }
 {%endhighlight %}
 
-**Passo 5:** Refatore para eliminar duplicidade
+**Step 5:** Refactor to remove duplicity.
 
 Score.cpp
 
@@ -338,11 +338,11 @@ bool Score::equal(const Score& s) const
 }
 {%endhighlight %}
 
-E para finalizar, reiniciamos o ciclo novamente marcando o teste de igualdade como finalizado e destacando nossa última implementação, a subtração de pontos.
+And to finish, we restarted the cycle again and turning the equality comparison point done and highlighting our last implementation, the score subtraction.
 
-Então vamos…
+So let's:
 
-**Passo 1:** Atualizar o checklist
+**Step 1:** Update the checklist.
 
 - **subtract score**
 - ~~equal~~
@@ -350,7 +350,7 @@ Então vamos…
 - ~~Make “value” private~~
 - ~~sum score~~
 
-**Passo 2:** Criar um novo teste para o método de subtração de pontos
+**Step 2:** Create a new test for the score subtraction method.
 
 {% highlight c++ %}
 SECTION("test subtract") {
@@ -361,9 +361,9 @@ SECTION("test subtract") {
 }
 {% endhighlight %}
 
-**Passo 3:** Execute o teste e veja-o falhar
+**Step 3:** Run the test and watch it fail.
 
-**Passo 4:** Faça o teste passar.
+**Step 4:** Make the test pass.
 
 Score.hpp
 
@@ -408,7 +408,7 @@ bool Score::equal(const Score& s) const
 }
 {%endhighlight %}
 
-**Passo 5:** Refatore para eliminar duplicidade
+**Step 5:** Refactor to remove duplicity.
 
 Score.cpp
 
@@ -434,17 +434,17 @@ bool Score::equal(const Score& s) const
 }
 {%endhighlight %}
 
-Acho que você já pegou a ideia, certo?
+I think you get the idea, do you?
 
-Tenho certeza que você se perguntou “Mas se eu informar um valor negativo ou se a soma/subtração gerasse um valor negativo?”. É claro, se isso for um problema, devemos atualizar nosso checklist adicionando esse ponto para previnir que isso não aconteça e, mais uma vez, executar o ciclo de teste e implementação dessa correção. Mas vou deixar esse exercício para você, caso queria continuar essa implementação.
+I'm sure that you are asking yourself "What about I pass negative values or the sum/subtract methods generate a negative value?". Cool! If it's a problem, we'll need to update the checklist adding this topic, prevent that this happens, and more one time, executing a new cycle of test/implementation of this one. I'll let this exercise for you if you want to continue this implementation.
 
-Basicamente é assim que aplico o TDD na dia a dia. É claro que normalmente encaramos tarefas muitas vezes mais complexas do que um simples sistema de Score, mas o ciclo é exatamente o mesmo, criando um checklist com ainda mais detalhes a serem garantidos no momento do desenvolvimento.
+Is that way that I apply TDD on my day-to-day. Surely, we face more complex tasks rather than a simple Score System like that, but the cycle is the same, creating a more detailed checklist to be programmed.
 
-[Access the PR with full code of this example][example-pr]{:target="_blank"}
+[Access the Pull Request with the full code of this example][example-pr]{:target="_blank"}
 
-Espero que tenha gostado e até a próxima!
+I hope you liked it and until the next post!
 
-### Referências:
+### References:
 
 - Book: Test-Driven Development By Example - Kent Beck
 - Book: Refactoring. Improving the Design of Existing Code - Martin Fowler
