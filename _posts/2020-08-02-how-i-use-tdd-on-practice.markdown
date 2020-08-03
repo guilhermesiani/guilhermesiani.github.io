@@ -211,6 +211,8 @@ TEST_CASE("Score") {
         Score newScore = score.sum(45);
         Score toCompare(55);
         CHECK(newScore == toCompare);
+        Score toCompareWithInitial(10);
+        CHECK(score == toCompareWithInitial);
     }
 }
 {% endhighlight %}
