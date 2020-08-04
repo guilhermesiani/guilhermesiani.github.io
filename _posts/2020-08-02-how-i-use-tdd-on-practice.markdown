@@ -89,7 +89,7 @@ void Score::sum(int value)
 };
 {%endhighlight %}
 
-We could add more tests to ensure the correct behavior of the sum method.
+We can add more asserts to ensure the correct behavior of the sum method.
 
 testScore.cpp
 
