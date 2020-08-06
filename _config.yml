@@ -57,3 +57,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-174897287-1"
+    anonymize_ip: false # default
