@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Distraction-Free"
+date:   2022-02-14 14:30:41 -0300
+categories: tips
+--- 
+
 Distraction-Free
 
 For a long time, I ask myself why I can’t focus on a single thing for 25 or 40 minutes. What prevents me from starting and finishing reasoning without breaking up seeing slack channel messages, stock options prices, or new emails from my inbox?
