@@ -24,7 +24,7 @@ Turning the notifications off doesn’t mean you need to ignore your team or fam
 ## Colors
 
 ![image](/assets/images/museum-colour.jpg)
-<legend><small><center>Image from theverge.com</center></small></legend><br>
+*<center>Image from: theverge.com</center>*
 
 The apps are created to entertain and get our attention. How much time we spend on it, more profitable it is for the companies. In general, it is created with hot colors to induce our brain to focus fast, on-time of a notification appear, even at a glance. This gets our focus and attention out instantaneously. Drop our logic reasoning and we lost all the context of what we were doing.
 A good solution for this and for many users is to turn the colors at grayscale on smartphones. It prevents you to be anxious to see all messages with a red balloon on the app icon, or the delivery app promotion message and helps us to focus on what really matters.
@@ -44,7 +44,7 @@ At least the result is a better focus and attention on what we are doing.
 ## Browser
 
 ![image](/assets/images/lot-of-info.jpeg)
-<legend><small><center>Image from blog.jobsgopublic.com</center></small></legend><br>
+*<center>Image from: blog.jobsgopublic.com</center>*
 
 The browsers hide the biggest problem of our generation. A lot of dispersing on searching and consuming information.
 Again the colors and elements are relevant factors here, but the “easily” factor too on finding some information.
