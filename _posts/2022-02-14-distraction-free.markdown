@@ -9,6 +9,7 @@ categories: tips
 For a long time, I ask myself why I can’t focus on a single thing for 25 or 40 minutes. What prevents me from starting and finishing reasoning without breaking up seeing slack channel messages, stock options prices, or new emails from my inbox?
 
 
+
 ## Sleepy
 
 Is notable how our behavior changes when we are tired and sleepy. We are all the time trying to encourage our brain with some pleasure or some kind of excitement. I don’t even need to say there is only one solution to this problem. Let’s try finishing working hours kicking the can down the road and at the end complain about not being productive as we would like. If we police ourselves to take a better night’s sleep, ok. I know that are N factors about a bad night sleep and we need to consider it. So remember to not charge ourselves too much. Take some time and recharge the energy for the next day.
