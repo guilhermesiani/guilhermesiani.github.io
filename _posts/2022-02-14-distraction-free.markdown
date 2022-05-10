@@ -16,7 +16,9 @@ Is notable how our behavior changes when we are tired and sleepy. We are all the
 
 ## Notifications
 
+<div style="text-align: center;">
 ![image](/assets/images/notification.png)
+</div>
 
 How much time do we take to see a new message from slack? How about a new inbox mail or messages on the smartphone? Maybe some second I supposed between the time we see a notification and open the app. Without generalizing, I know that many of us have this bad habit.
 I’ve been working and studying with notifications off and it worked well. Think that when we have an emergency, we will receive a phone call and not a message or an e-mail. This is for our personal contacts too. Don’t be afraid to turn the notifications off for a period, maybe 25 or 40 minutes. Consider a focus time and give messages, people, or things the attention at the intervals. 
@@ -24,8 +26,9 @@ The Pomodoro method could help a lot to achieve this good habit and de-stress.
 Turning the notifications off doesn’t mean you need to ignore your team or family. It means that you are giving more value to your focus time, working, studying, and having fun.
 
 ## Colors
-
+<div style="text-align: center;">
 ![image](/assets/images/museum-colour.jpg)
+</div>
 *<center>Image from: theverge.com</center>*
 
 The apps are created to entertain and get our attention. The more time we spend on it, the more profitable it is for the companies. In general, it is created with hot colors to induce our brain to focus on fast, on-time notifications appearing, even at a glance. This gets our focus and attention out instantaneously, drops our logical reasoning and we lost all the context of what we were doing.
@@ -34,7 +37,9 @@ If you get a try, you will notice that you will be reading messages, articles, a
 
 ## Elements
 
+<div style="text-align: center;">
 ![image](/assets/images/many-elements.jpg)
+</div>
 
 This is true for the tools that we use at work.
 Avoiding seeing a lot of elements and texts on the screen helps us to keep the focus on what matters.
@@ -45,7 +50,9 @@ At least the result is a better focus and attention on what we are doing.
 
 ## Browser
 
+<div style="text-align: center;">
 ![image](/assets/images/lot-of-info.jpeg)
+</div>
 *<center>Image from: blog.jobsgopublic.com</center>*
 
 The browsers hide the biggest problem of our generation. A lot of dispersing on searching and consuming information.
