@@ -5,7 +5,7 @@ date:   2022-02-14 14:30:41 -0300
 categories: tips
 --- 
 
-<img align="left" width="215" height="143.3325" src="../assets/images/distraction.jpg" style="padding-right: 20px">
+<img align="left" width="215" height="143.3325" src="https://github.com/guilhermesiani/guilhermesiani.github.io/raw/1a1a16a812ac2861baa0bee2989f58a4ff958af7/assets/images/distraction.jpg" style="padding-right: 20px">
 For a long time, I ask myself why I can’t focus on a single thing for 25 or 40 minutes. What prevents me from starting and finishing reasoning without breaking up seeing slack channel messages, stock options prices, or new emails from my inbox?
 
 <br/><br/><br/>
